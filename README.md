@@ -5,7 +5,7 @@
 
 This is a small project to get noticies from [globo G1 portal](https://g1.globo.com/)
 
-## Aplications Steps
+## Aplication Steps
 - Open search page
 - Get links
 - Clean links
