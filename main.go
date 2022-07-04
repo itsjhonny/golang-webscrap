@@ -12,11 +12,11 @@ import (
 )
 
 type NoticeModule struct {
-	Title  string
-	Resume string
-	Date   string
-	Link   string
-	Body   string
+	Title   string
+	Summary string
+	Date    string
+	Link    string
+	Body    string
 }
 
 func main() {
@@ -90,8 +90,8 @@ func getNew(url string) <-chan NoticeModule {
 			title := h.ChildText("h1.content-head__title")
 			notice.Title = strings.TrimSpace(title)
 
-			resume := h.ChildText("h2.content-head__subtitle")
-			notice.Resume = strings.TrimSpace(resume)
+			summary := h.ChildText("h2.content-head__subtitle")
+			notice.Summary = strings.TrimSpace(summary)
 
 			date := h.ChildAttr("p.content-publication-data__updated > time", "datetime")
 			notice.Date = strings.TrimSpace(date)
