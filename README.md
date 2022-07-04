@@ -1,5 +1,6 @@
 
 #Brazil Web Scrapy using Golang
+
 ``` Go | [gocolly](https://github.com/gocolly/colly) | Web crawler | Open Source 💙  ```
 
 This is a small project to get noticies from [globo G1 portal](https://g1.globo.com/)
