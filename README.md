@@ -1,11 +1,11 @@
 
-#Brazil Web Scrapy using Golang
+# Brazil Web Scrapy using Golang
 
 ``` Go | [gocolly](https://github.com/gocolly/colly) | Web crawler | Open Source 💙  ```
 
 This is a small project to get noticies from [globo G1 portal](https://g1.globo.com/)
 
-##Aplications Steps
+## Aplications Steps
 - Open search page
 - Get links
 - Clean links
@@ -21,7 +21,7 @@ type NoticeModule struct {
 	Body   string
 }
 ```
-##Output
+## Output
 ```
 [
     {
